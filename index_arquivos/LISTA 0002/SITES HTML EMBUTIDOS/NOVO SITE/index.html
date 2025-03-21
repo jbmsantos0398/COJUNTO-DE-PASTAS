@@ -111,15 +111,11 @@ body {
 
 
   <a class="active" href="index.html">INÍCIO</a>
-  <a href="index_arquivos/NOME⚫/1 - Copia.html">News</a>
-  <a href="index_arquivos/NOME⚫/1 - Copia.html">Contact</a>
-  <a href="index_arquivos/NOME⚫/1 - Copia.html">About</a>
-  <a href="index_arquivos/NOME⚫/1 - Copia.html">News</a>
-  <a href="index_arquivos/NOME⚫/1 - Copia.html">Contact</a>
-  <a href="index_arquivos/NOME⚫/1 - Copia.html">About</a>
-  <a href="index_arquivos/NOME⚫/1 - Copia.html">News</a>
-  <a href="index_arquivos/NOME⚫/1 - Copia.html">Contact</a>
-  <a href="index_arquivos/NOME⚫/1 - Copia.html">About</a>
+  <a href="index_arquivos/AUDIOS/1 - Copia.html">AUDIOS</a>
+  <a href="index_arquivos/DOCUMENTOS/1 - Copia.html">DOCUMENTOS</a>
+  <a href="index_arquivos/IMAGENS/1 - Copia.html">IMAGENS</a>
+  <a href="index_arquivos/VÍDEOS/1 - Copia.html">VÍDEOS</a>
+  <a href="index_arquivos/OUTROS/1 - Copia.html">OUTROS</a>
 
 
 </div><div style="padding-left:16px">
@@ -134,9 +130,9 @@ body {
 <!---------------------------------------------------------------------------------->
 <!-------------------------------------------
 <center><h1>FORTALEZA, 18:39 10/02/2024</h1>
-  <h2>BEM VINDO</h2>
+  <h2>BEM VINDO</h2></center>
 <!-----------------------RELOGIO NOVO RELÓGIO BOM-------SEM MARK----------------->
-<u><html><head><title></title></head><body><SCRIPT LANGUAGE="JAVASCRIPT">
+<center><u><html><head><title></title></head><body><SCRIPT LANGUAGE="JAVASCRIPT">
 <!--
 var now = new Date();
 var mName = now.getMonth() +1 ;
@@ -211,6 +207,94 @@ document.write('  '+todaysDate);
 <!--##############################################################################-->
 <!--##############################################################################-->
 <!---------------------------------------------------------------------------------->
+<!DOCTYPE html><html><head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 5px solid #aaa;
+  margin-bottom: 12px;
+}
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: blue;
+  display: block
+}
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+</style></head><body>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="🔍 Pesquisa nessa pág ..." title="🔍 Pesquisa nessa pág ...">
+
+<ul id="myUL">
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+  <li><a href="#">Adele</a></li>
+  <li><a href="#">Agnes</a></li>
+
+  <li><a href="#">Billy</a></li>
+  <li><a href="#">Bob</a></li>
+
+  <li><a href="#">Calvin</a></li>
+  <li><a href="#">Christina</a></li>
+  <li><a href="#">Cindy</a></li>
+
+
+
+
+
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+</ul><script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script></body></html>
 <!-------------------------------------------------------------->
 <p><a href="
 LINK🔴
